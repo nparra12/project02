@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
-<!DOCTYPE HTML>
 <html>
-    
+
 <head>
     <title>Giphy Search</title>
     <link rel="stylesheet" href="css/style.css">
@@ -9,23 +8,48 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-  </head>
+</head>
 
-  <body>
-   <!--- <header>
-       --add nav bar here
-    </header>--> 
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Giphy Search</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#searches">Searches</a></li>
+                  <li><a href="#gif-of-the-day">GIF of the Day</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+<br><br><br><br>
 
     <div class="container">
         <input id="search" type="text" placeholder="Search..." />
         <button id="submit" type="button" class="btn btn-sm btn-success" onclick="getData()">Submit</button>
-         <div class="inner"></div>
-            </div>
-        </div>
-    </div>
-   
-    
+        <div class="inner flex-container"></div>
+
+        <footer class="container-fluid text-center">
+            <a href="index.html" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <p>Giphy Search <a href="https://giphy.com" title="Visit Giphy.com">www.giphy.com</a>
+            </p>
+        </footer>
 
 
-  </body>
-  </html>
+
+</body>
+
+</html>
