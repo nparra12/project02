@@ -8,7 +8,7 @@ Users are able to type in a search phrase, click submit, then the site will quer
 The technologies used were HTML, CSS, SCSS, & JS. 
 
 Ideas for future improvement:
-    Create space in between rows and columns
-    Display a set of trending GIFs on the landing page
-    Add social media links to the home page
-    Create a form for users to upload their own unique GIFs
+   - Create space in between rows and columns
+   - Display a set of trending GIFs on the landing page
+   - Add social media links to the home page
+   - Create a form for users to upload their own unique GIFs
