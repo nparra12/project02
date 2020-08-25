@@ -4,16 +4,20 @@ body {
     line-height: 1.8;
     color: #818181;
     text-align: center;
+   
 
   }
   
   .jumbotron {
     font-family: Montserrat, sans-serif;
+ 
+  
   }
   
   .navbar {
     font-family: Montserrat, sans-serif;
   }
+
 
   .flex-container {
     display: flex;
@@ -22,4 +26,13 @@ body {
     margin: auto;
  
   }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 1em 1em;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
   

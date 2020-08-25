@@ -12,7 +12,7 @@ function getData() {
     inner.empty()
 
     for (i in jiffs) {
-      inner.append("<img src='"+jiffs[i].images.fixed_width.url+"' style='height:350px; width:350px '/>")
+      inner.append(`<img src='${jiffs[i].images.fixed_width.url}' style='height:250px; width:250px '/>`)
 
     }
   }
