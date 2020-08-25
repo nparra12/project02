@@ -1,21 +1,24 @@
 
 body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 15px Raleway, sans-serif;
+    background-color: #fa9d52;
     line-height: 1.8;
-    color: #818181;
     text-align: center;
-   
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+
 
   }
   
   .jumbotron {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Fugaz One', cursive;
  
   
   }
   
   .navbar {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 
 
@@ -29,11 +32,16 @@ body {
 
 
   #footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
-    text-align: center;            
+    text-align: center; 
+    padding: 0.5px;
+    background-color: #e5e5e5;  
+    z-index:1;
+    font-family: Raleway;
+
+
   }
  
   
