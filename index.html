@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 </head>
 
 <body>
@@ -46,17 +47,18 @@
 
     <br><br>
 
-    <div class="jumbotron text-center container-fluid">
+    <div class="jumbotron jumbotron-fluid">
         <h1>Giphy Finds</h1>
     </div>
+
     <div class="flex container">
+        <div class="sm"
         <input id="search" type="text" placeholder="Search..." />
-        <button id="submit" type="button" class="btn btn-sm btn-success" onclick="getData()">Submit <i
-            class="fa fa-search"></i> </button></button>
-        <div class="inner"></div>
+            <button id="submit" type="button" class="btn btn-sm btn-success" onclick="getData()">Submit <i
+                    class="fa fa-search"></i> </button></button>
+            <div class="inner"></div>
     </div>
-    </div>
-    </div>
+
 
     <div>
 

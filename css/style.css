@@ -1,6 +1,5 @@
 body {
   font: 400 15px Raleway, sans-serif;
-  background-color: #fa9d52;
   line-height: 1.8;
   text-align: center;
   position: relative;
@@ -25,6 +24,13 @@ body {
   -ms-flex-line-pack: center;
       align-content: center;
   margin: auto;
+}
+
+.inner {
+  padding: 3em;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
 }
 
 #footer {
